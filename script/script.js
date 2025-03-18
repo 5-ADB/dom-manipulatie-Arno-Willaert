@@ -14,6 +14,12 @@ const ouder = document.querySelector("#ouder")
 const jonger = document.querySelector("#jonger")
 
 ouder.addEventListener("click", () => {
-  console.log(gebruikers.leeftijd);
+  console.log(gebruikers.leeftijd>gevragenLeeftijd);
+
+}
+)
+jonger.addEventListener("click", () => {
+  console.log(gebruikers.leeftijd<gevragenLeeftijd);
 
 })
+
